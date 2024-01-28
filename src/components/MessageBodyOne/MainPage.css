@@ -1,0 +1,79 @@
+/* ChatApp.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#chat-container {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.time-stamp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time-stamp p {
+  margin: 0.5rem;
+  border: 1px solid #e1dbdbec;
+  background-color: #ece5dd;
+  width: 15%;
+  padding: 5px;
+  font-size: border-box;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.message__sender {
+  background-color: #dcf8c6;
+  text-align: left;
+  width: 40%;
+  margin-left: 27rem;
+  margin-top: 1;
+  border: 1px solid #e1dbdbec;
+  border-radius: 5px;
+  padding: 5px;
+}
+.message__sender__text {
+  font-size: 12px;
+  margin: 0;
+}
+
+.message__sender__timestamp {
+  font-size: 10px;
+  margin-left: 16rem;
+  color: grey;
+  margin-bottom: 0;
+}
+
+.message__receiver {
+  background-color: #e1dbdbec;
+  text-align: left;
+  width: 40%;
+  border: 1px solid #e1dbdbec;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 1;
+  margin-left: 0.5rem;
+}
+.message__receiver__text {
+  font-size: 12px;
+  margin: 0;
+}
+.message__receiver__timestamp {
+  font-size: 10px;
+  margin-left: 16rem;
+  color: grey;
+  margin-bottom: 0;
+}
+
+/* Media query for mobile devices */

@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 10px 4px;
+    background: whitesmoke;
+
+    img {
+        width: 27px;
+
+    }
+
+
+    &__message {
+        height: 30px;
+        display: flex;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 20px;
+        margin: 0 5px;
+        width: 73%;
+        justify-content: space-between;
+        background-color: white;
+
+
+        input {
+            border: none;
+            outline: none;
+            padding: 10px;
+            background: transparent;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+
+        div {
+            margin: 0 5px;
+
+        }
+    }
+}

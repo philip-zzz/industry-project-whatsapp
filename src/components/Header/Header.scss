@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    padding-bottom: 0;
+    background: whitesmoke;
+
+
+    img {
+        width: 27px;
+
+    }
+
+    &__profile {
+        display: flex;
+        align-items: center;
+
+        &__name {
+
+            p {
+                font-size: 10px;
+                color: gray;
+                padding-bottom: 5px;
+            }
+        }
+
+        img {
+            height: 40px;
+            width: 40px;
+            margin: 0 4px;
+            border: 1px solid gainsboro;
+            border-radius: 100%;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+
+        div {
+            margin-right: 15px;
+        }
+    }
+}
+
+.user-name {
+    margin: 0
+}
+
+.time {
+    margin: 0
+}
